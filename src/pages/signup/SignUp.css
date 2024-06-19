@@ -1,0 +1,41 @@
+.signup {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.signup .signup-form {
+    height: 10rem;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.submit button {
+    border-radius: 2rem;
+}
+
+.submit link {
+    color: white;
+    text-decoration: none;
+    justify-content: flex-start;
+}
