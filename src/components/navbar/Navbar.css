@@ -1,0 +1,80 @@
+.nav {  
+  background-color: teal;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 2rem; */
+  padding: 2.5rem 1rem;
+  color: white;
+  width: 100%;
+  /* position: fixed; */
+}
+  
+.site-title {
+  font-size: 2rem;
+  color: inherit;
+  padding: .25rem;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+  
+.nav ul {
+  font-size: 1.25rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  margin: 0;
+    
+}
+li a{
+  color: white;
+  text-decoration: none;
+}
+  
+.nav li:hover {
+  text-decoration: underline;
+}
+  
+.signup-link {
+  border: black solid 1px;
+  background-color: aliceblue;
+  color: black;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 5rem;
+}
+
+.signup-link:hover {
+  background-color: rgb(166, 166, 166);
+}
+
+.burgermenu {
+  display: none;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .nav ul li, .signup-link {
+    display: none;
+  }
+  .burgermenu{
+    display: flex;
+  }
+  .site-title {
+    padding: 0 0;
+  }
+  .nav {
+    justify-content: space-between;
+    padding: 2rem 5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav {
+    padding: 2rem 1rem;
+  }
+}

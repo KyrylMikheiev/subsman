@@ -1,0 +1,50 @@
+.footer-list {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+
+}
+
+li li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.last-line-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.last-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-between;
+    width: 80%;
+    font-size: 1rem;
+}
+
+.last-line ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.socials ul {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.last-line a:hover {
+    color: black;
+}
+

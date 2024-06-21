@@ -19,9 +19,9 @@ export default function Navbar() {
                     <a href="/sign-in">Sign in</a>
                 </li>
             </ul>
-            <button className="signup-button">
-                <a href="/signup">Start for free</a>
-            </button>
+            <a href="/signup" className="signup-link">
+                Start for free
+            </a>
             <div className='burgermenu'>
                 <Hamburger rounded/>
             </div>
