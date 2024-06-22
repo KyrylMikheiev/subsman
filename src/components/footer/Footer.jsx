@@ -43,19 +43,19 @@ export default function Footer() {
             <div className="last-line-wrapper">
                 <hr style={{width: "80%"}}/>
                 <div className="last-line">
-                    <p style={{color: "white"}}>Subsman © 2024</p>
+                    <p style={{color: "white"}}>© Subsman 2024</p>
         	        <ul>
                         <li>
-                            <a href="/lol">Terms of Service </a>
+                            <a href="/terms-of-service">Terms of Service </a>
                         </li>
                         <li>
-                            <a href="/lol">Privacy Policy</a>
+                            <a href="/privacy-policy">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="/lol">Manage Privacy</a>
+                            <a href="/manage-privacy">Manage Privacy</a>
                         </li>
                         <li>
-                            <a href="/lol">Cookie Policy</a>
+                            <a href="/cookie-policy">Cookie Policy</a>
                         </li>
                     </ul>
 

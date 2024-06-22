@@ -1,13 +1,10 @@
-.home {
-    color: teal;
+.notfound {
     background-color: white;
-    height: 60vh;
+    color: teal;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.home .title {
-    font-size: 3rem;
+    font-size: 2rem;
 }
