@@ -2,10 +2,12 @@ import './Navbar.css'
 import Hamburger from 'hamburger-react';
 
 export default function Navbar() {
+
+
     return (
         <nav className="nav">
             <a href="/" className="site-title"> subsman </a>
-            <ul>
+            <ul className='links'>
                 <li>
                     <a href="/how-it-works"> How it works </a>
                 </li>

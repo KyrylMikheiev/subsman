@@ -1,10 +1,12 @@
 .signup-page {
-    background-image: url(../../assets/istockphoto-1406091764-612x612.jpg);	
+    background-image: url(../../assets/money.jpg);	
+    /* background-repeat: no-repeat; */
     height: 90vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    /* padding: 1rem 3rem 2rem;     */
 }
 
 .signup {
@@ -16,7 +18,7 @@
     backdrop-filter: blur(10px);
     border: 2px solid white;
     border-radius: 2rem;
-    padding: 1rem 3rem 2rem;
+    padding: 1rem 5rem 2rem 5rem;    
     height: 23rem;
 }
 
@@ -44,10 +46,16 @@ button {
     padding: 0.75rem 1rem;
     border-radius: 2rem;
     cursor: pointer;
+    border: none;
 }
 
 button:hover {
     background-color: rgb(166, 166, 166);
+}
+
+button:focus {
+    outline-color: #071952;
+    border: none;
 }
 
 input {
@@ -59,6 +67,10 @@ input {
     font-size: 1rem;
     color: white;
     background-color: teal;
+}
+
+input:focus {
+    outline-color: white;
 }
 
 input::placeholder {

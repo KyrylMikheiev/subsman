@@ -3,11 +3,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* gap: 2rem; */
-  padding: 2.5rem 1rem;
+  padding: 1.25rem 1rem;
   color: white;
   width: 100%;
-  /* position: fixed; */
 }
   
 .site-title {
@@ -57,24 +55,20 @@ li a{
   color: white;
 }
 
+
 @media (max-width: 900px) {
-  .nav ul li, .signup-link {
+  .nav ul, .signup-link {
     display: none;
   }
-  .burgermenu{
+  .burgermenu {
     display: flex;
   }
   .site-title {
-    padding: 0 0;
+    padding: 0;
   }
   .nav {
     justify-content: space-between;
-    padding: 2rem 5rem;
   }
+
 }
 
-@media (max-width: 500px) {
-  .nav {
-    padding: 2rem 1rem;
-  }
-}
