@@ -1,32 +1,16 @@
 import './Navbar.css'
-import Hamburger from 'hamburger-react';
+import { useState } from 'react'
+import NavBarDesktop from './NavBarDesktop'
+import NavbarMobile from './NavBarMobile'
 
 export default function Navbar() {
 
+    const [open, setOpen] = useState(false)
 
     return (
-        <nav className="nav">
-            <a href="/" className="site-title"> subsman </a>
-            <ul className='links'>
-                <li>
-                    <a href="/how-it-works"> How it works </a>
-                </li>
-                <li>
-                    <a href="/why-subsman"> Why subsman ? </a>
-                </li>
-                <li>
-                    <a href="/pricing"> Pricing </a>
-                </li>
-                <li>
-                    <a href="/sign-in">Sign in</a>
-                </li>
-            </ul>
-            <a href="/signup" className="signup-link">
-                Start for free
-            </a>
-            <div className='burgermenu'>
-                <Hamburger rounded/>
-            </div>
-        </nav>
+        <>
+            <NavBarDesktop  />
+            <NavbarMobile open={open} setOpen={setOpen}/>
+        </>
     )
 }

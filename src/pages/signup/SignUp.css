@@ -1,6 +1,8 @@
 .signup-page {
-    background-image: url(../../assets/money.jpg);	
-    /* background-repeat: no-repeat; */
+    /* background-image: url(../../assets/bugatti.jpg);	
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
     height: 90vh;
     width: 100%;
     display: flex;
@@ -79,7 +81,7 @@ input::placeholder {
 
 .submit a {
     font-size: .9rem;
-    color: blue;
+    color: white;
     /* background-color: white; */
     border-radius: 2rem;
     padding: 0.3rem ;

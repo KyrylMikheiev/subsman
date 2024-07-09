@@ -1,0 +1,97 @@
+.nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1rem;
+    background-color: teal;
+}
+
+.ham-menu {
+  z-index: 3;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  position: relative;
+}
+
+.ham-menu span {
+  height: 5px;
+  width: 100%;
+  background-color: white;
+  border-radius: 25px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+  left: 50%;
+  top: 50%;
+}
+
+.ham-menu span:nth-child(1) {
+  top: 25%;
+}
+
+.ham-menu span:nth-child(3) {
+  top: 75%;
+}
+
+.ham-menu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  width: 70%;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  transition: 0.5s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  display: flex;
+  right: 0;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+
+aside ul li, aside ul li a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  width: 100%;
+  font-size: 2rem;
+  margin: 0;
+}
+
+@media (min-width: 900px) {
+    .nav-mobile {
+        display: none;
+    }
+    
+}
