@@ -31,7 +31,7 @@ export default function SignIn() {
     <ThemeProvider theme={defaultTheme} >
       <Container component="main"  sx={{ mt: 10, mb: 10,
         padding: "1rem", width: "30rem", bgcolor: "white", 
-        borderRadius: "1rem" }}>
+        borderRadius: "1rem", border: "3px solid lightblue" }}>
         <CssBaseline />
         <Box
           sx={{
