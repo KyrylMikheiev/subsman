@@ -1,4 +1,4 @@
-.signup-page {
+.signup_page {
     /* background-image: url(../../assets/bugatti.jpg);	
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 }
 
 
-.signup .signup-form {
+.signup .signup_form {
     height: 100%;
     color: inherit;
     display: flex;

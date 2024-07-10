@@ -22,6 +22,18 @@ body{
   height: 100vh;
 }
 
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 
 

@@ -1,13 +1,13 @@
 import { SocialIcon } from "react-social-icons"
-import "./Footer.css"
+import styles from "./Footer.module.css"
 
 export default function LastLine() {
     return (
-        <div className="last-line-wrapper">
+        <div className={styles.last_line_wrapper}>  
             <hr style={{width: "100%"}}/>
-            <div className="last-line">
+            <div className={styles.last_line}>
                 <p style={{color: "white"}}>© Subsman 2024</p>
-                <ul className="last-line-list">
+                <ul className={styles.last_line_list}>
                     <li>
                         <a href="/terms-of-service">Terms of Service </a>
                     </li>
@@ -22,7 +22,7 @@ export default function LastLine() {
                     </li>
                 </ul>
 
-                <ul className="socials">
+                <ul className={styles.socials}>
                     <SocialIcon bgColor="white" fgColor="black" url="https://www.facebook.com/" />
                     <SocialIcon bgColor="white" fgColor="black" url="https://www.instagram.com/" />
                     <SocialIcon bgColor="white" fgColor="black" url="https://www.linkedin.com/" />

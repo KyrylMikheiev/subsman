@@ -1,12 +1,12 @@
-import "./Footer.css"
+import styles from "./Footer.module.css"
 import LastLine from "./LastLine"
 
 
 export default function Footer() {
     return (
-        <div className="footer">
-            <ul className="footer-list">
-                <li className="title-footer">
+        <div className={styles.footer}>
+            <ul className={styles.footer_list}>
+                <li className={styles.title_footer}>
                     <h1>subsman</h1>
                 </li>
                 <li>
