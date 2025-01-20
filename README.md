@@ -3,7 +3,7 @@ Navigate yourself to the project folder and type in:
 ### npm run dev
 
 ## Current status
-Project just has been started. Only beautiful and responsive UIs were made:
+Project has just been started. Only beautiful and responsive UIs were made:
 
 ## Desktop
 ![Screen Recording 2025-01-20 003827](https://github.com/user-attachments/assets/0581d60a-3dd4-4d0f-99c2-0a8df2f140b1)
